@@ -11,6 +11,7 @@ public class ZombieDeath : MonoBehaviour
     public GameObject TheEnemy;
     public int StatusCheck;
 
+
     void DamageZombie(int DamageAmount)
     {
         EnemyHealth -= DamageAmount;
@@ -25,6 +26,7 @@ public class ZombieDeath : MonoBehaviour
 
             Debug.Log("died");
             Destroy(gameObject);
+            
 
         }
     }
