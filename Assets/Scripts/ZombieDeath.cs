@@ -7,7 +7,7 @@ using UnityEngine;
 public class ZombieDeath : MonoBehaviour
 {
 
-    public int EnemyHealth = 10;
+    public int EnemyHealth = 20;
     public GameObject TheEnemy;
     public int StatusCheck;
 
@@ -17,15 +17,15 @@ public class ZombieDeath : MonoBehaviour
     }
 
 
-
-
     void Update()
     {
         if (EnemyHealth <= 0 && StatusCheck == 0)
         {
             StatusCheck = 2;
-            TheEnemy.GetComponent<Animation>().Stop("Z_Walk");
-            TheEnemy.GetComponent<Animation>().Play("Z_FallingBack");
+
+            Debug.Log("died");
+            Destroy(gameObject);
+
         }
     }
 }
