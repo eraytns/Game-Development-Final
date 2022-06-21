@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -29162,6 +29162,11 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!95 &907654970 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: -6057140222963153312, guid: 0d6373858f853604b960cf84b7d3dfbf, type: 3}
+  m_PrefabInstance: {fileID: 1658241876}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &907654972
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29177,6 +29182,7 @@ MonoBehaviour:
   EnemyHealth: 20
   TheEnemy: {fileID: 907654968}
   StatusCheck: 0
+  animator: {fileID: 907654970}
 --- !u!65 &907654973
 BoxCollider:
   m_ObjectHideFlags: 0

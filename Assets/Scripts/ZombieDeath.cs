@@ -10,6 +10,7 @@ public class ZombieDeath : MonoBehaviour
     public int EnemyHealth = 20;
     public GameObject TheEnemy;
     public int StatusCheck;
+    public Animator animator;
 
 
     void DamageZombie(int DamageAmount)
@@ -22,10 +23,11 @@ public class ZombieDeath : MonoBehaviour
     {
         if (EnemyHealth <= 0 && StatusCheck == 0)
         {
+            animator.SetTrigger("Death");
             StatusCheck = 2;
 
             Debug.Log("died");
-            Destroy(gameObject);
+            //Destroy(gameObject);
             
 
         }
