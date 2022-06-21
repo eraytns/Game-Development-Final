@@ -12,14 +12,10 @@ public class ZombieDeath : MonoBehaviour
     public int StatusCheck;
     public Animator animator;
 
-    
-
-
     void DamageZombie(int DamageAmount)
     {
         EnemyHealth -= DamageAmount;
     }
-
 
     void Update()
     {
@@ -28,15 +24,9 @@ public class ZombieDeath : MonoBehaviour
         {
             animator.SetTrigger("Death");
             StatusCheck = 2;
-
             Debug.Log("died");
-            //Destroy(gameObject);
-            
 
         }
-        else
-        {
-            animator.SetTrigger("Damage");
-        }
+        
     }
 }
