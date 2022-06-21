@@ -31,5 +31,9 @@ public class ZombieDeath : MonoBehaviour
             
 
         }
+        else
+        {
+            animator.SetTrigger("Damage");
+        }
     }
 }
