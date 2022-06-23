@@ -41,7 +41,7 @@ public class FirePistol : MonoBehaviour
         MuzzleFlash.SetActive(true);
         MuzzleFlash.GetComponent<Animation>().Play("MuzzleAnim");
         GunFire.Play();
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.2f);
         IsFiring = false;
     }
 }
