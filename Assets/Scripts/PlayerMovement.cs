@@ -38,7 +38,7 @@ public class PlayerMovement : MonoBehaviour
     [Header("Ground Detection")]
     [SerializeField] Transform groundCheck;
     [SerializeField] LayerMask groundMask;
-    bool isGrounded;
+    public bool isGrounded;
     float groundDistance = 0.4f;
     
 

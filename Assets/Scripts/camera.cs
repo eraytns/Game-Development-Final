@@ -8,16 +8,6 @@ public class camera : MonoBehaviour
     float rotationOnX;
     float mouseSensitivity = 30f;
 
-
-
-
-
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
 
