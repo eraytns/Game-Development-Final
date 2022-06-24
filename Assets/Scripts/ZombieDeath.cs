@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class ZombieDeath : MonoBehaviour
 {
-
     public int EnemyHealth = 20;
     public Slider HealthBar;
     public GameObject TheEnemy;
@@ -24,9 +23,7 @@ public class ZombieDeath : MonoBehaviour
         {
             animator.SetTrigger("Death");
             StatusCheck = 2;
-            Debug.Log("died");
-
+            Destroy(gameObject, 1.5f);
         }
-        
     }
 }

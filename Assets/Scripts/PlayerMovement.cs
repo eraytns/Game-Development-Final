@@ -6,6 +6,8 @@ public class PlayerMovement : MonoBehaviour
 {
     float playerHeight = 2f;
 
+    public float Health = 100f;
+
     [SerializeField] Transform orientation;
 
     [Header("Movement")]
