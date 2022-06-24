@@ -3548,7 +3548,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -3939,7 +3939,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &97869517
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5078,7 +5078,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &141606033
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8110,9 +8110,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EnemyHealth: 20
   HealthBar: {fileID: 762734958}
-  TheEnemy: {fileID: 0}
+  TheEnemy: {fileID: 213609786}
   StatusCheck: 0
-  animator: {fileID: 0}
+  animator: {fileID: 213609791}
+--- !u!95 &213609791 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: -6057140222963153312, guid: 0d6373858f853604b960cf84b7d3dfbf, type: 3}
+  m_PrefabInstance: {fileID: 213609785}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &214447938
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9084,7 +9089,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -10484,9 +10489,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EnemyHealth: 20
   HealthBar: {fileID: 1475227506}
-  TheEnemy: {fileID: 0}
+  TheEnemy: {fileID: 261304387}
   StatusCheck: 0
-  animator: {fileID: 0}
+  animator: {fileID: 261304392}
+--- !u!95 &261304392 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: -6057140222963153312, guid: 0d6373858f853604b960cf84b7d3dfbf, type: 3}
+  m_PrefabInstance: {fileID: 261304386}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &263211870
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16608,9 +16618,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EnemyHealth: 20
   HealthBar: {fileID: 1725609619}
-  TheEnemy: {fileID: 0}
+  TheEnemy: {fileID: 405099884}
   StatusCheck: 0
-  animator: {fileID: 0}
+  animator: {fileID: 405099889}
+--- !u!95 &405099889 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: -6057140222963153312, guid: 0d6373858f853604b960cf84b7d3dfbf, type: 3}
+  m_PrefabInstance: {fileID: 405099883}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &406457612
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17796,7 +17811,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &436884929
 RectTransform:
   m_ObjectHideFlags: 0
@@ -19107,7 +19122,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -19880,7 +19895,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -22578,7 +22593,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &556266084
 RectTransform:
   m_ObjectHideFlags: 0
@@ -23884,7 +23899,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EnemyHealth: 20
   HealthBar: {fileID: 2023950147}
-  TheEnemy: {fileID: 0}
+  TheEnemy: {fileID: 591605045}
   StatusCheck: 0
   animator: {fileID: 591605048}
 --- !u!1001 &591608413
@@ -24205,9 +24220,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EnemyHealth: 20
   HealthBar: {fileID: 972210196}
-  TheEnemy: {fileID: 0}
+  TheEnemy: {fileID: 596843074}
   StatusCheck: 0
-  animator: {fileID: 0}
+  animator: {fileID: 596843079}
+--- !u!95 &596843079 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: -6057140222963153312, guid: 0d6373858f853604b960cf84b7d3dfbf, type: 3}
+  m_PrefabInstance: {fileID: 596843073}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &599199908
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28682,7 +28702,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -28967,7 +28987,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -33008,7 +33028,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EnemyHealth: 20
   HealthBar: {fileID: 916183701}
-  TheEnemy: {fileID: 0}
+  TheEnemy: {fileID: 871765899}
   StatusCheck: 0
   animator: {fileID: 871765902}
 --- !u!65 &871765904
@@ -38611,7 +38631,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1054412174
 RectTransform:
   m_ObjectHideFlags: 0
@@ -46238,9 +46258,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EnemyHealth: 20
   HealthBar: {fileID: 1931579409}
-  TheEnemy: {fileID: 0}
+  TheEnemy: {fileID: 1248420458}
   StatusCheck: 0
-  animator: {fileID: 0}
+  animator: {fileID: 1248420463}
+--- !u!95 &1248420463 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: -6057140222963153312, guid: 0d6373858f853604b960cf84b7d3dfbf, type: 3}
+  m_PrefabInstance: {fileID: 1248420457}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1250206469
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50524,7 +50549,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1350861766
 RectTransform:
   m_ObjectHideFlags: 0
@@ -51688,7 +51713,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1386116043
 RectTransform:
   m_ObjectHideFlags: 0
@@ -53202,7 +53227,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -54799,9 +54824,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EnemyHealth: 20
   HealthBar: {fileID: 965943154}
-  TheEnemy: {fileID: 0}
+  TheEnemy: {fileID: 1462496103}
   StatusCheck: 0
-  animator: {fileID: 0}
+  animator: {fileID: 1462496108}
+--- !u!95 &1462496108 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: -6057140222963153312, guid: 0d6373858f853604b960cf84b7d3dfbf, type: 3}
+  m_PrefabInstance: {fileID: 1462496102}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1463553849
 GameObject:
   m_ObjectHideFlags: 0
@@ -54821,7 +54851,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1463553850
 RectTransform:
   m_ObjectHideFlags: 0
@@ -60287,7 +60317,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1606780900
 RectTransform:
   m_ObjectHideFlags: 0
@@ -63400,7 +63430,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -64152,9 +64182,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EnemyHealth: 20
   HealthBar: {fileID: 1537864657}
-  TheEnemy: {fileID: 0}
+  TheEnemy: {fileID: 1711259381}
   StatusCheck: 0
-  animator: {fileID: 0}
+  animator: {fileID: 1711259386}
+--- !u!95 &1711259386 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: -6057140222963153312, guid: 0d6373858f853604b960cf84b7d3dfbf, type: 3}
+  m_PrefabInstance: {fileID: 1711259380}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1711371407
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -65363,7 +65398,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -67547,8 +67582,8 @@ RectTransform:
   m_Father: {fileID: 585675144}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -67623,7 +67658,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -70137,7 +70172,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1892734026
 RectTransform:
   m_ObjectHideFlags: 0
@@ -72928,7 +72963,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1961685448
 RectTransform:
   m_ObjectHideFlags: 0
@@ -74354,23 +74389,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.6660867, y: 1.8472567, z: 1}
   m_Center: {x: -0.008803249, y: 0.9321499, z: 4.1727025e-11}
---- !u!114 &1994109667
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1994109662}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27d5b8a7171ecd047a2b1035ea4b444a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  EnemyHealth: 20
-  HealthBar: {fileID: 1850379572}
-  TheEnemy: {fileID: 0}
-  StatusCheck: 0
-  animator: {fileID: 0}
 --- !u!65 &1994109668
 BoxCollider:
   m_ObjectHideFlags: 0

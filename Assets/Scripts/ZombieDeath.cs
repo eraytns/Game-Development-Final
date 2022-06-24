@@ -19,7 +19,7 @@ public class ZombieDeath : MonoBehaviour
 
     void Update()
     {
-        HealthBar.value = EnemyHealth;
+        //HealthBar.value = EnemyHealth;
         if (EnemyHealth <= 0 && StatusCheck == 0)
         {
             animator.SetTrigger("Death");
