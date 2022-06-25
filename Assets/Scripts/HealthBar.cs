@@ -21,11 +21,6 @@ public class HealthBar : MonoBehaviour
     {
         currentHealth = Player.Health;
         healthBar.fillAmount = currentHealth / maxHealth;
-
-        if(Player.Health == 0)
-        {
-            Debug.Log("You died!");
-        }
     }
 
 }
