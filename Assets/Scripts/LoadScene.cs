@@ -9,7 +9,7 @@ public class LoadScene : MonoBehaviour
     {
         if(other.tag == "Player")
         {
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene(3);
         }
     }
 }
