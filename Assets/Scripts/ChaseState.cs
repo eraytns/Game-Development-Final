@@ -24,7 +24,7 @@ public class ChaseState : StateMachineBehaviour
             animator.SetBool("Chasing", false);
         if (distance < 1.7f)
             animator.SetBool("Attacking", true);
-        AudioManager.instance.Play("ZombieAttack");
+
     }
 
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state

@@ -22,7 +22,6 @@ public class ZombieDeath : MonoBehaviour
         if (EnemyHealth <= 0 && StatusCheck == 0)
         {
             AudioManager.instance.Play("Zombie_Death");
-            AudioManager.instance.Stop("ZombieAttack");
             animator.SetTrigger("Death");
             StatusCheck = 2;
             Destroy(gameObject, 1.5f);
