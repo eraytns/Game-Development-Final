@@ -18,7 +18,8 @@ public class Idle2 : StateMachineBehaviour
     {
         float distance = Vector3.Distance(player.position, animator.transform.position);
         if (distance < chaserange)
-            animator.SetBool("Chasing", true);
+        animator.SetBool("Chasing", true);
+        AudioManager.instance.Play("Zombieroar");
     }
 
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
